@@ -1,9 +1,9 @@
 #clockContainer {
     position: relative;
     margin: auto;
-    height: 41.5vw;
+    height: 48vw;
     /*to make the height and width responsive*/
-    width: 40.2vw;
+    width: 48vw;
     background: url(clock_background.png) no-repeat;
     /*setting our background image*/
     background-size: 100%;
@@ -19,25 +19,27 @@
 }
   
 #hour {
-    width: 1.8%;
+    width: 3%;
     height: 25%;
-    top: 25%;
-    left: 48.85%;
-    opacity: 0.8;
+    top: 25.2%;
+    left: 50%;
+    opacity: 0.99;
+    background: blue;
 }
   
 #minute {
-    width: 1.6%;
+    width: 2%;
     height: 30%;
-    top: 19%;
-    left: 48.9%;
-    opacity: 0.8;
+    top: 20.7%;
+    left: 50%;
+    opacity: 0.99;
+    background: red;
 }
   
 #second {
     width: 1%;
     height: 40%;
-    top: 9%;
-    left: 49.25%;
-    opacity: 0.8;
+    top: 11%;
+    left: 50%;
+    opacity: 0.99;
 }
